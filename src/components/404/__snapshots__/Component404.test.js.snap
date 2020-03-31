@@ -5,31 +5,7 @@ exports[`Test on <Component404 /> container should render with no props 1`] = `
   className="container containerMin p-0"
 >
   <div
-    className="container p-0"
-  >
-    <div
-      className="row pb-5"
-    >
-      <div
-        className="col pt-2 pb-2"
-      >
-        <p
-          className="mb-0"
-        >
-          <small>
-            <span
-              className="BlueLink"
-              onClick={[Function]}
-            >
-              Home
-            </span>
-          </small>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div
-    className="row "
+    className="row"
   >
     <div
       className="col"
