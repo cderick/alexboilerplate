@@ -21,8 +21,7 @@ const common = {
         extensions: ['.jsx', '.js'],
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.jsx$/,
                 include: [SOURCE_DIR],
                 use: 'babel-loader',
@@ -69,38 +68,36 @@ if (env.NODE_ENV === 'development') {
             publicPath: '/'
         },
         module: {
-            rules: [
-                {
-                    test: /\.scss$/,
-                    include: path.join(__dirname, 'src'),
-                    use: [
-                        {
-                            loader: 'style-loader'
-                        },
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                modules: {
-                                    localIdentName: '[name]__[local]___[hash:base64:5]'
-                                },
-                                importLoaders: 1,
+            rules: [{
+                test: /\.scss$/,
+                include: path.join(__dirname, 'src'),
+                use: [{
+                        loader: 'style-loader'
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: {
+                                localIdentName: '[name]__[local]___[hash:base64:5]'
                             },
+                            importLoaders: 1,
                         },
-                        {
-                            loader: 'postcss-loader'
-                        },
-                        {
-                            loader: 'sass-loader'
-                        }
-                    ]
-                }
-            ]
+                    },
+                    {
+                        loader: 'postcss-loader'
+                    },
+                    {
+                        loader: 'sass-loader'
+                    }
+                ]
+            }]
         },
         devtool: 'inline-source-map',
         devServer: {
             contentBase: OUTPUT_DIR,
             hot: true,
-            publicPath: '/'
+            publicPath: '/',
+            historyApiFallback: true
         }
     })
 } else {
@@ -111,32 +108,29 @@ if (env.NODE_ENV === 'development') {
         },
         performance: { hints: false },
         module: {
-            rules: [
-                {
-                    test: /\.scss$/,
-                    include: path.join(__dirname, 'src'),
-                    use: [
-                        {
-                            loader: MiniCssExtractPlugin.loader
-                        },
-                        {
-                            loader: 'css-loader',
-                            options: {
-                                modules: {
-                                    localIdentName: '[name]__[local]___[hash:base64:5]'
-                                },
-                                importLoaders: 1,
+            rules: [{
+                test: /\.scss$/,
+                include: path.join(__dirname, 'src'),
+                use: [{
+                        loader: MiniCssExtractPlugin.loader
+                    },
+                    {
+                        loader: 'css-loader',
+                        options: {
+                            modules: {
+                                localIdentName: '[name]__[local]___[hash:base64:5]'
                             },
+                            importLoaders: 1,
                         },
-                        {
-                            loader: 'postcss-loader'
-                        },
-                        {
-                            loader: 'sass-loader'
-                        }
-                    ]
-                }
-            ]
+                    },
+                    {
+                        loader: 'postcss-loader'
+                    },
+                    {
+                        loader: 'sass-loader'
+                    }
+                ]
+            }]
         },
         plugins: [
             new MiniCssExtractPlugin({

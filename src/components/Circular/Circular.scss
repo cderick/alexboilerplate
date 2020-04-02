@@ -1,0 +1,68 @@
+.circu {
+    position: absolute;
+    top: 165px;
+    right: 0;
+    color: rgb(99, 42, 68);
+    font-size: 34px;
+    font-family: Roboto;
+    font-weight: bold;
+    background: rgb(255, 255, 255);
+    border-radius: 35px 0 0 35px;
+}
+
+.galax {
+    background-image: url('../../static/images/galaxy.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 400px;
+}
+
+.conduit {
+    color: rgb(73, 72, 73);
+    font-family: Roboto;
+    font-weight: normal;
+}
+
+.grey {
+    position: relative;
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+.kolo {
+    border: 1px solid rgb(81, 123, 136);
+    border-radius: 50%;
+}
+
+.office {
+    background-image: url('../../static/images/office.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.offtext {
+    color: rgb(73, 72, 73);
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 300;
+    letter-spacing: 0.16px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    padding: 20px 30px;
+    position: absolute;
+    left: 0%;
+    top: -10%
+}
+
+.commer {
+    color: rgb(81, 123, 136);
+    font-size: 20px;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.16px;
+    line-height: 32px;
+    position: relative;
+}
