@@ -1,0 +1,74 @@
+{
+    "works": {
+        "title": "Using Globechain is Quick, Easy and Simple",
+        "card": [{
+                "title": "List",
+                "icons": [{
+                        "ico": "text-primary fa-2x fas fa-desktop",
+                        "description": "Items are listed on the Globechain marketplace"
+                    },
+                    {
+                        "ico": "text-primary fa-2x far fa-envelope",
+                        "description": "Alert emails are sent to all members who have registered and signed up to receive alerts"
+                    }
+                ]
+            },
+            {
+                "title": "Request",
+                "icons": [{
+                        "ico": "text-primary fa-2x fas fa-stopwatch",
+                        "description": "Items are usually requested within 12-24 hours"
+                    },
+                    {
+                        "ico": "text-primary fa-2x far fa-comment-dots",
+                        "description": "The listing member chooses who the items go to. The members chat and agree on a collection date and time"
+                    }
+                ]
+            },
+            {
+                "title": "Collect",
+                "icons": [{
+                        "ico": "text-primary fa-2x fas fa-shuttle-van",
+                        "description": "Items are collected by requesting member"
+                    },
+                    {
+                        "ico": "text-primary fa-2x far fa-comment-alt",
+                        "description": "Members fill out a feedback form. The information is used to create case studies and collect ESG data"
+                    }
+                ]
+            }
+        ]
+    },
+    "faq": {
+        "title": "FAQ",
+        "faqQues": [{
+                "question": "Is it free to register?",
+                "answer": "Yes! It is completely free to register on the marketplace and anyone can open an account"
+            },
+            {
+                "question": "Do you have to pay for the item you request?",
+                "answer": "No. As a member you can request and receive the item for free, you are responsible for the collection and costs that are related to that. In some countries we offer logistics via our courier partners at a special discount due to being Globechain members. This will be offered on the page of the item you are requesting."
+            },
+            {
+                "question": "How does pricing for listing an item work?",
+                "answer": "If you are a charity, small business and/or an individual you can sign-up to be a PAYG (pay as you go) member. All companies and corporates sign-up for the annual corporate membership."
+            },
+            {
+                "question": "How does Pay As You Go work?",
+                "answer": "PAYG is for members who will be listing a few items on an ad-hoc basis and is priced at £10 excl Vat for up to 100 of the same item."
+            },
+            {
+                "question": "How does Corporate membership work?",
+                "answer": "A bespoke annual fee is charged which allows unlimited number of listings and unlimited number of items for a year."
+            },
+            {
+                "question": "What data and information is in the report?",
+                "answer": "The report includes feedback and social, environmental and economic data."
+            },
+            {
+                "question": "How do I setup an alert?",
+                "answer": "Upon registration, you can sign up for alerts for all new listed items by clicking the alerts checkbox. You can also edit and sign up for alerts in the Dashboard and Listing pages by clicking or"
+            }
+        ]
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "sectionOne": {
+        "title": "To stay up to date with the latest Globechain news follow us on our social media channels.",
+        "subtitle": "We share how our marketplace is leading the way globally while having fun, working hard and making an impact.",
+        "icons": [
+            "fab text-primary mr-2 fa-instagram",
+            "fab text-primary mr-2 fa-facebook-f",
+            "fab text-primary mr-2 fa-twitter",
+            "fab text-primary mr-2 fa-linkedin",
+            "fab text-primary mr-2 fa-soundcloud"
+        ]
+    },
+    "awards": {
+        "title": "Awards",
+        "cards": [{
+                "year": "2020",
+                "award": [{
+                    "image": "logo.svg",
+                    "description": "Top European Fintech startups to watch in 2020"
+                }]
+            },
+            {
+                "year": "2019",
+                "award": [{
+                        "image": "logo.svg",
+                        "description": "May Al-Karooni recognized as top 50 women leading in Real Estate"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Regional Social Entrepreneur award"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Hot Ten 2019"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Forbes Start Ups to Watch 2019"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Commercial Waste Reduction Initiative"
+                    }
+                ]
+            },
+            {
+                "year": "2018-2016",
+                "award": [{
+                        "image": "logo.svg",
+                        "description": "Winner Business Green Leaders Circular Economy of the Year"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Dell Circular Economy People’s Choice Award"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Winner Mexico Accelerator Programme"
+                    },
+                    {
+                        "image": "logo.svg",
+                        "description": "Winner Nordic Innovation Launch Awards"
+                    }
+                ]
+            }
+        ]
+    },
+    "secondCollumn": {
+        "button": "Latest media pieces",
+        "medias": [{
+                "small": {
+                    "title": "Disruptive CEO Nation",
+                    "date": "16 March, 2020",
+                    "image": "ceo.svg",
+                    "description": "May Al-Karooni is the CEO & founder of Globechain, a reuse marketplace that connects corporates to charities, small businesses and people to redistribute unneeded items, generating social impact data."
+                },
+                "bigMedia": {
+                    "title": "Top Trends In Sustainable Fashion Today",
+                    "date": "11 Febuary, 2020",
+                    "image": "pic1.svg",
+                    "description": "Sustainability in fashion is a hot topic, but many consumers still want fast fashion"
+                }
+            },
+            {
+                "small": {
+                    "title": "Waste Not, Want Not",
+                    "date": "January, 2020",
+                    "image": "ccm.svg",
+                    "description": "According to the Environmental Protection Agency, three million tons of usable office furniture end up in landfills every year. In this glut of others' trash, Globechain Founder May Al-Karooni saw a trove of hidden treasure."
+                },
+                "bigMedia": {
+                    "title": "The companies delivering on sustainability",
+                    "date": "29 January, 2020",
+                    "image": "pic2.svg",
+                    "description": "IBM’s Roberto Battistoni highlights the businesses championing sustainable consumerism and the role emerging technologies can play."
+                }
+            },
+            {
+                "small": {
+                    "title": "The Woman Laying Waste to Waste",
+                    "date": "January, 2020",
+                    "image": "logo.svg",
+                    "description": "May Al-Karooni is the founder of Globechain.com, a reuse marketplace that connects corporates to charities and small and midsized businesses to reuse and redistribute unneeded items, particularly construction and building fit-out materials, and generates social impact data for its members."
+                }
+            }
+        ]
+    }
+}

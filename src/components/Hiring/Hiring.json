@@ -1,0 +1,19 @@
+{
+    "title": "We are hiring",
+    "card": [{
+            "title": "Job title",
+            "subtitle": "Brief overview of position and then have ability to click read more and it will open on its own page which will have all details and email link to contact us form",
+            "button": "Find out more"
+        },
+        {
+            "title": "Job title",
+            "subtitle": "Brief overview of position and then have ability to click read more and it will open on its own page which will have all details and email link to contact us form",
+            "button": "Find out more"
+        },
+        {
+            "title": "Job title",
+            "subtitle": "Brief overview of position and then have ability to click read more and it will open on its own page which will have all details and email link to contact us form",
+            "button": "Find out more"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "reuse": {
+        "firstCollumn": {
+            "title": "The reuse marketplace helps charities save money and access good quality items for free that allows them to achieve their goals and make a difference in their local community.",
+            "description": "We work with a variety of companies across all sectors, which means there is a diverse range of items listed on the marketplace and often in bulk quantities. The benefits of using our marketplace is that you as a charity are given the choice on which items you would like to request and in which quantity. This prevents charities from having items they don’t need or want or feel pressurized to take."
+        },
+        "secondCollumn": {
+            "title": "Mirrors Display Units Chairs Desks Crockery Bricks Toys Fittings & Fixtures Cabinets Shelving Mattresses Hospital Beds Medical Equipment Computers Carpets Tiles Doors Lighting"
+        }
+    },
+    "love": {
+        "title": "Why we love Globechain",
+        "card": [{
+                "description": "\"I always wanted to read books when I was growing up in the village but there were no books to read which is one of the reasons why Project Dream always wanted to build a library to support all schools in the region giving them access to learning materials for free. The donation of the kitchen units has made this dream a reality as we are in the process of building one which will benefit over 9000 children in 16 schools. Thanks to Globechain and B&Q for this donation and looking forward to the opening of that library.\"",
+                "name": "- Sidikie Kargbo, Project Dream"
+            },
+            {
+                "description": "\"Due to the durability of the items they provide a good source of finance to support my organisation in Ghana, Africa. Our charity will use the funds to help young people to learn how to play musical instruments as well as sponsor talented individuals to achievetheir dreams and careers.\"",
+                "name": "- Eric Agyenim-Boateng from Christ Shelter Ministry International"
+            },
+            {
+                "description": "\"We had damaged computers so these new ones just came at the right time. I also mentor other charities that run schools for poor children - so a few of the computers will be donated to their schools as well. Thank you very, very much for this donation which will enlighten and broaden the minds of the children and empower them for the future. Thank you.\"",
+                "name": "- Jackie from God’s Children Empowered"
+            },
+            {
+                "description": "\"As a charity it is extremely important that we deliver the highest quality service to our clients while also keep our expenses low. By using Globechain it has allowed us to source fixtures and furnishings that will add elegance and style to our client journey with minimal cost to us.\"",
+                "name": "- Victoria Mullin Gorelik from SMART WORKS"
+            }
+        ]
+    }
+}

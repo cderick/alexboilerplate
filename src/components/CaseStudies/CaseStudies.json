@@ -1,0 +1,19 @@
+{
+    "card": [{
+        "logo": "conduit.svg",
+        "description": "Globechain was tasked to reuse the existing materials from the defit within the broader total impact objective. 100% of the items listed were collected, totalling over 70,000 kilos of items being diverted from landfill.",
+        "button": "Read more"
+    }, {
+        "logo": "nandos.svg",
+        "description": "By listing furniture and equipment they are no longer using, Nando's have been able to save charities over £37,000 and have made 82,300 kilos of items available for reuse.",
+        "button": "Read more"
+    }, {
+        "logo": "raddison.svg",
+        "description": "The Edwardian, Radisson Blu hotel in London chose to take a step towards sustainability by listing unneeded items for reuse. Many of their items went on to support housing and family services charities, schools and orphanages in Sierra Leone, as well as upcycling organisations.",
+        "button": "Read more"
+    }, {
+        "logo": "crown.svg",
+        "description": "Being in the luxury hotel business means the highest standards must be kept. It also means that refurbishments and replacement of accessories and fixtures are a regular occurrence. Instead of the unneeded items becoming waste or being recycled, the Westbury Mayfair chooses…",
+        "button": "Read more"
+    }]
+}

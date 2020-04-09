@@ -1,0 +1,46 @@
+{
+    "firstSection": {
+        "titleOne": "Reducing waste in the",
+        "titleTwo": "Restaurant sector",
+        "card": {
+            "title": "The problem",
+            "titleType": "button",
+            "subtitle": "We talk a lot about food waste in the restaurant sector, but as with many types of businesses, opportunities for reducing waste extend beyond the obvious.",
+            "description": "Because of the high standards consumers have come to expect from restaurants, refurbishments happen relatively frequently, often before fixtures and furniture have reached the end of their lifecycle. So what’s to be done with the older items when new ones are on their way? Often, they end up becoming waste by being broken down into small units."
+        }
+    },
+    "orageBox": {
+        "title": "What can be listed",
+        "description": "What you list on Globechain is pretty limitless (with the exceptions you’ll find on our help centre). Some common items from restaurants are:",
+        "list": [
+            "Dining chairs",
+            "Dining tables",
+            "Office furniture",
+            "Storage cabinets",
+            "Decor",
+            "Fridges and freezers",
+            "Microwaves",
+            "Cookers and ovens",
+            "Light fixtures",
+            "Computers and TV screens",
+            "Building materials"
+        ]
+    },
+    "itemList": {
+        "title": "Some of the items that restaurants might incinerate or send to landfill are:",
+        "list": [
+            "Dining furniture (tables and chairs",
+            "Appliances and electrical equipment",
+            "Crockery, glassware and other tableware",
+            "Serving and holding equipment",
+            "Office furniture",
+            "Plants and plots",
+            "Decor"
+        ]
+    },
+    "solution": {
+        "title": "The solution",
+        "titleType": "button",
+        "description": "Many of these items are replaced simply for a renewed style, so the items tend to be in decent shape and are easily reusable by charities, small business (such as cafes) and individuals. Restaurant furniture and equipment listed on Globechain is often picked up by charities that focus on housing and homelessness, or are collected by charity shops that then re-sell the items to raise funds. When a company lists these surplus materials on Globechain within 24 hours the first requests are made and they get collected. We gather information on where the materials went, what social impact they had, what the weight of the product was and more. You are able to use this data towards your sustainability reports and earn BREEAM (UK) or LEED (Americas) points for your sustainable practices."
+    }
+}

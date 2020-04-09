@@ -1,0 +1,55 @@
+{
+    "heroBanner": {
+        "title": "Circular Refurbishment"
+    },
+    "mainSection": {
+        "description": "The Conduit (in partnership with ISG), was converting a hotel into a private members club and wanted to reuse and repurpose as much as possible. Globechain was tasked to reuse the existing materials from the defit within the broader total impact objective. The ethos of the club is to serve as a meeting place for a community of people passionate about driving sustainability and social change.",
+        "secondMesasge": "View ISG's sustainability reportto learn more. Globechain is featured on page 59 of the report.",
+        "image": "small.png"
+    },
+    "impact": {
+        "title": "Impact Made",
+        "circles": [{
+                "number": "3,000",
+                "items": "Items listed"
+            },
+            {
+                "number": "3,000",
+                "items": "Items listed"
+            },
+            {
+                "number": "3,000",
+                "items": "Items listed"
+            },
+            {
+                "number": "3,000",
+                "items": "Items listed"
+            },
+            {
+                "number": "3,000",
+                "items": "Items listed"
+            },
+            {
+                "number": "3,000",
+                "items": "Items listed"
+            }
+        ]
+    },
+    "collected": {
+        "title": "Items Collected",
+        "listDescription": "The building was 36,000sq ft and was undergoing a full refurbishment. We were able to list for reuse:",
+        "list": [
+            "Carpet",
+            "Ceiling tiles",
+            "Fire doors",
+            "Pedestals and office desks",
+            "Wooden flooring",
+            "Pillars",
+            "Marble"
+        ]
+    },
+    "quote": {
+        "quoteText": "\"If a commercial space is looking to get rid of office furniture, rather than put it in a skip, you can take photos, list them, and people can come and collect them for free. People took lighting fixtures, electrical sockets - 34,000 kilos of materials went to trade schools and charities.\"",
+        "quoteName": "Rowan Finnegan, Co-founder, The Conduit"
+    }
+}

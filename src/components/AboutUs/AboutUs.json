@@ -1,0 +1,18 @@
+{
+    "globechain": {
+        "title": "Globechain is a reuse marketplace that connects companies with charities, small businesses and individuals to redistribute unneeded items generating social impact data.",
+        "cardButon": {
+            "title": "Why use globechain",
+            "description": "We currently have over 10,000 members and items listed on our marketplace are typically reserved for collection between 12 - 24 hours. It is quick, cost effective and simple solution."
+        },
+        "cardNormal": {
+            "title": "We work across all sectors including retail, hotels, restaurants, construction, medical and commercial.",
+            "description": "We believe anything that can be reused can be listed and have a successful proven track record of finding homes for all the items on our marketplace."
+        }
+    },
+    "countries": {
+        "image": "oval.png",
+        "places": "Globechain is based in UK, Spain, UAE and New York with the ability to providing a global internal sharing platform.",
+        "award": "As an award-winning leader in the circular economy, our marketplace is our way of being Commercial with a Conscience"
+    }
+}

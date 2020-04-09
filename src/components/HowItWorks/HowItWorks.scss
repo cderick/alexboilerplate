@@ -9,7 +9,7 @@
     background: rgb(255, 255, 255);
     border-radius: 0px;
     border: 5px solid rgb(245, 245, 245);
-    height: 394px;
+    min-height: 394px;
 }
 
 .listh {
@@ -17,7 +17,6 @@
     font-family: Roboto;
     font-size: 38px;
     font-weight: 600;
-    height: 51px;
     letter-spacing: 0.15px;
 }
 
@@ -31,7 +30,6 @@
 .faqus {
     background: rgb(255, 255, 255);
     border-radius: 0px;
-    height: 79px;
     color: rgb(73, 72, 73);
     font-family: Roboto;
     font-size: 24px;
