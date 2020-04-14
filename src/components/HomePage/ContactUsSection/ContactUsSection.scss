@@ -1,0 +1,59 @@
+.myWrapper {
+    background-color: rgb(245, 245, 245);
+    .formContacUs {
+        margin-bottom: 30px;
+        padding: 25px 20px;
+        border-radius: 25px !important;
+        border: 1px solid rgb(204, 204, 204);
+        &::placeholder {
+            color: rgb(204, 204, 204);
+            opacity: 1;
+        }
+        &:-ms-input-placeholder {
+            color: rgb(204, 204, 204);
+        }
+        &::-ms-input-placeholder {
+            color: rgb(204, 204, 204);
+        }
+        &.selectContact {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            height: 52px;
+            padding: .5em 1.3em;
+            ;
+        }
+    }
+    .textarea {
+        border-radius: 25px !important;
+        border: 1px solid rgb(204, 204, 204);
+        padding: 25px 20px;
+        &::placeholder {
+            color: rgb(204, 204, 204);
+            opacity: 1;
+        }
+        &:-ms-input-placeholder {
+            color: rgb(204, 204, 204);
+        }
+        &::-ms-input-placeholder {
+            color: rgb(204, 204, 204);
+        }
+    }
+    .mybutton {
+        background-color: #69afe3;
+        border-color: #69afe3;
+        border-radius: 25px;
+        color: white;
+        &:hover {
+            background-color: white;
+            border-color: white;
+        }
+    }
+    .mypooppingBold {
+        font-family: "MyPoppinsBold", sans-serif;
+        color: rgb(73, 72, 73);
+    }
+    .mypooppingLight {
+        font-family: "MyPoppinsLight", sans-serif;
+        color: rgb(73, 72, 73);
+    }
+}
