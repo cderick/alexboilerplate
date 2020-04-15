@@ -1,0 +1,67 @@
+.reuse {
+    color: rgb(99, 42, 68);
+    font-weight: bold;
+}
+
+.roundBlue {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: relative;
+    min-height: 138px;
+    p {
+        text-align: center;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        top: 41%;
+        color: white;
+    }
+    &.construction {
+        background-image: url('../../static/images/Construction.svg');
+    }
+    &.hotels {
+        background-image: url('../../static/images/Hotels.svg');
+    }
+    &.offices {
+        background-image: url('../../static/images/Offices.svg');
+    }
+    &.medical {
+        background-image: url('../../static/images/Medical.svg');
+    }
+    &.restaurants {
+        background-image: url('../../static/images/Restaurants.svg');
+    }
+    &.retail {
+        background-image: url('../../static/images/Retail.svg');
+    }
+}
+
+.glob {
+    background: rgb(235, 241, 252);
+    height: 175.1px;
+}
+
+.globtext {
+    color: rgb(73, 72, 73);
+    font-weight: bold;
+}
+
+.whywelove {
+    background: rgb(255, 255, 255);
+    border-radius: 0px;
+    color: rgb(73, 72, 73);
+}
+
+.colorBox {
+    background: rgb(255, 252, 221);
+    border-radius: 20px;
+    padding: 35px 25px;
+    height: 225px;
+}
+
+.strongTextBox {
+    color: #632a44;
+}

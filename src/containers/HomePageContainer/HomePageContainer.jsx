@@ -12,6 +12,7 @@ import Circular from '../../components/Circular/Circular'
 import InTheMedia from '../../components/InTheMedia/InTheMedia'
 import Component404 from '../../components/404/Component404'
 import PublicRoute from '../../components/RouterComponents/PublicRoute'
+import Corporates from '../../components/Corporates/Corporates'
 
 class HomePageContainer extends React.Component {
 	render() {
@@ -76,6 +77,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={InTheMedia}
 						path="/inthemedia"
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={Corporates}
+						path='/corporates'
 						exact
 					/>
 					<PublicRoute

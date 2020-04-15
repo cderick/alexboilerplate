@@ -1,0 +1,64 @@
+{
+    "marketplace": {
+        "title": "The reuse marketplace helps corporates and small businesses reduce waste, save money, achieve sustainability goals and generate social impact Environment, Social,Governance (ESG) data.",
+        "description": "We work with a variety of companies from local small businesses to large global corporates. We believe that the circular economy is the way forward and the only viable business model. We are leading the way for businesses to be commercial with a conscience."
+    },
+    "circles": [{
+            "type": "Construction",
+            "stylename": "construction"
+        },
+        {
+            "type": "Hotels",
+            "stylename": "hotels"
+        },
+        {
+            "type": "Offices",
+            "stylename": "offices"
+        },
+        {
+            "type": "Medical",
+            "stylename": "medical"
+        },
+        {
+            "type": "Restaurants",
+            "stylename": "restaurants"
+        },
+        {
+            "type": "Retail",
+            "stylename": "retail"
+        }
+    ],
+    "global": {
+        "image": "oval.png",
+        "description": "Globechain offers global internal reuse for corporates to share and reuse items internally instead of buying new items. Through internal reuse companies save money, reduces waste, logistics and optimizes stock and items for a longer period."
+    },
+    "why": {
+        "title": "Why we love Globechain",
+        "card": [{
+                "title": "Save money",
+                "description": "Reduce waste costs"
+            },
+            {
+                "title": "Quick Reservation",
+                "description": "24 hours or less is our standard request time"
+            },
+            {
+                "title": "ESG Data",
+                "description": "Social impact data on the distribution of unneeded items for your reports"
+            },
+            {
+                "title": "Scalability",
+                "description": "We have a global solution and a growing network of members"
+            },
+            {
+                "title": "Brand image",
+                "description": "Reuse and making a social impact, adds credibility to your brand image"
+            }
+        ]
+    },
+    "trust": {
+        "title": "Trusted by Industry Leaders",
+        "description": "Some of the companies that share our vision of being commercial with a conscience.",
+        "logos": "companies.svg"
+    }
+}
