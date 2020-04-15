@@ -35,23 +35,23 @@
     "why": {
         "title": "Why we love Globechain",
         "card": [{
-                "title": "Save money",
+                "name": "Save money",
                 "description": "Reduce waste costs"
             },
             {
-                "title": "Quick Reservation",
+                "name": "Quick Reservation",
                 "description": "24 hours or less is our standard request time"
             },
             {
-                "title": "ESG Data",
+                "name": "ESG Data",
                 "description": "Social impact data on the distribution of unneeded items for your reports"
             },
             {
-                "title": "Scalability",
+                "name": "Scalability",
                 "description": "We have a global solution and a growing network of members"
             },
             {
-                "title": "Brand image",
+                "name": "Brand image",
                 "description": "Reuse and making a social impact, adds credibility to your brand image"
             }
         ]

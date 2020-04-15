@@ -3,9 +3,8 @@ import style from '../Corporates.scss'
 
 class CorpoMarketSection extends React.Component {
     render() {
-        const { market } = this.props
-        if (!market) return null
-        const { marketplace, circles } = market
+        const { marketplace, circles } = this.props
+        if (!marketplace || !circles) return null
         return (
             <section>
                 <div className="row">
@@ -21,36 +20,10 @@ class CorpoMarketSection extends React.Component {
                                 circles.map((markCirc, index) => (
                                     <div key={`circUnique ${index}`} className="col-4 pb-4 m-0 w-100">
                                         <section className={`${style.roundBlue} ${style[markCirc.stylename]}`}>
-                                            <p className="mb-0 pb-0"><strong>Construction</strong></p>
+                                            {markCirc.type && <p className="mb-0 pb-0"><strong>{markCirc.type}</strong></p>}
                                         </section>
                                     </div>
                                 ))}
-
-                            <div className="col-4 pb-4 m-0 w-100">
-                                <section className={`${style.roundBlue} ${style.hotels}`}>
-                                    <p className="mb-0 pb-0"><strong>Hotels</strong></p>
-                                </section>
-                            </div>
-                            <div className="col-4 pb-4 m-0 w-100">
-                                <section className={`${style.roundBlue} ${style.offices}`}>
-                                    <p className="mb-0 pb-0"><strong>Offices</strong></p>
-                                </section>
-                            </div>
-                            <div className="col-4 pb-4 m-0 w-100">
-                                <section className={`${style.roundBlue} ${style.medical}`}>
-                                    <p className="mb-0 pb-0"><strong>Medical</strong></p>
-                                </section>
-                            </div>
-                            <div className="col-4 pb-4 m-0 w-100">
-                                <section className={`${style.roundBlue} ${style.restaurants}`}>
-                                    <p className="mb-0 pb-0"><strong>Restaurants</strong></p>
-                                </section>
-                            </div>
-                            <div className="col-4 pb-4 m-0 w-100">
-                                <section className={`${style.roundBlue} ${style.retail}`}>
-                                    <p className="mb-0 pb-0"><strong>Retail</strong></p>
-                                </section>
-                            </div>
                         </div>
                     </div>
                 </div>
