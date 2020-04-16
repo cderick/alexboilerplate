@@ -13,6 +13,7 @@ import InTheMedia from '../../components/InTheMedia/InTheMedia'
 import Component404 from '../../components/404/Component404'
 import PublicRoute from '../../components/RouterComponents/PublicRoute'
 import Corporates from '../../components/Corporates/Corporates'
+import ActivateCompany from '../../components/ActivateCompany/ActivateCompany'
 
 class HomePageContainer extends React.Component {
 	render() {
@@ -89,6 +90,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={Component404}
 						path='/404'
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={ActivateCompany}
+						path='/activatecompany'
 						exact
 					/>
 					<Redirect from='*' to='/404' />
