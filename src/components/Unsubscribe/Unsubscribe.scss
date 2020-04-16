@@ -1,0 +1,59 @@
+.containerMin {
+    min-height: 70vh;
+}
+
+.standardButton {
+    padding: 10px 4rem;
+    color: white;
+    text-align: center;
+    outline: 0;
+    background-color: #69afe3;
+    border-radius: 25px;
+    border-color: #69afe3;
+    &.alternative {
+        color: #69afe3;
+        background-color: white;
+        border: 2px solid #69afe3;
+        &:hover {
+            color: white;
+            background-color: darken($color: #69afe3, $amount: 10);
+            border-color: darken($color: #69afe3, $amount: 10);
+        }
+    }
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        background-color: darken($color: #69afe3, $amount: 10);
+    }
+}
+
+.emailInput {
+    width: 100%;
+    color: #69afe3;
+    padding: 15px;
+    outline: 0;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 25px;
+    margin-bottom: 20px;
+    &.invalidBorders {
+        color: red;
+        border-color: red;
+        &:focus {
+            border-color: red;
+        }
+    }
+    &::placeholder {
+        color: rgb(204, 204, 204);
+    }
+    &::-webkit-input-placeholder {
+        color: rgb(204, 204, 204);
+    }
+    &:-ms-input-placeholder {
+        color: rgb(204, 204, 204);
+    }
+    &:focus {
+        border-color: #69afe3;
+    }
+}
