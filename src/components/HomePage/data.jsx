@@ -33,16 +33,16 @@ const homePageSection = {
 
         },
         {
-            title: 'Pay as you go',
-            subtitle: 'For one off and ad hoc listings',
-            description: '£10 per listing of up to 100 of the same item (eg. £10 to list 100 chairs)',
+            title: 'Annual membership',
+            subtitle: 'For multiple and unlimited listings',
+            description: 'Bespoke quote based on requirements',
             blueButton: `Let's talk`
 
         },
         {
-            title: 'Pay as you go',
-            subtitle: 'For one off and ad hoc listings',
-            description: '£10 per listing of up to 100 of the same item (eg. £10 to list 100 chairs)',
+            title: 'Internal Reuse',
+            subtitle: 'A global solution for companies to share internally',
+            description: 'Bespoke quote based on requirements',
             blueButton: `Let's talk`
 
         }

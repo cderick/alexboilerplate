@@ -14,8 +14,8 @@ class HomePage extends React.Component {
 			<section>
 				<div className={`container-fluid ${style.missionBack} pl-0 pr-0 pb-5`}>
 					<div className="container p-0">
-						<HomeMissionSection />
-						<HomeBenefitSection/>
+						<HomeMissionSection heroBanner={heroBanner} howWeDoSection={howWeDoSection} />
+						<HomeBenefitSection listingSection={listingSection} sectorSection={sectorSection} benefitSection={benefitSection} />
 					</div>
 				</div>
 				<ContactUsSection contactUs={contactUs} />
