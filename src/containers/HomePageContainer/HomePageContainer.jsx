@@ -14,6 +14,7 @@ import Component404 from '../../components/404/Component404'
 import PublicRoute from '../../components/RouterComponents/PublicRoute'
 import Corporates from '../../components/Corporates/Corporates'
 import ActivateCompany from '../../components/ActivateCompany/ActivateCompany'
+import ActivateAccount from '../../components/Activate/ActivateAccount'
 
 class HomePageContainer extends React.Component {
 	render() {
@@ -96,6 +97,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={ActivateCompany}
 						path='/activatecompany'
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={ActivateAccount}
+						path='/activateaccount'
 						exact
 					/>
 					<Redirect from='*' to='/404' />
