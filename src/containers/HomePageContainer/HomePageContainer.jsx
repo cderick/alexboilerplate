@@ -17,6 +17,7 @@ import ActivateCompany from '../../components/ActivateCompany/ActivateCompany'
 import ActivateAccount from '../../components/Activate/ActivateAccount'
 import Unsubscribe from '../../components/Unsubscribe/Unsubscribe'
 import PrivacyPolicy from '../../components/Privacy/PrivacyPolicy'
+import TermsAndConditions from '../../components/Terms/TermsAndConditions'
 
 class HomePageContainer extends React.Component {
 	render() {
@@ -117,6 +118,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={PrivacyPolicy}
 						path='/privacypolicy'
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={TermsAndConditions}
+						path='/termsandconditions'
 						exact
 					/>
 					<Redirect from='*' to='/404' />
