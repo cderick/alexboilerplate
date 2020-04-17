@@ -1,0 +1,20 @@
+.contGray {
+    background: rgb(245, 245, 245);
+    border-radius: 20px;
+}
+
+.standardButton {
+    padding: 10px 4rem;
+    color: white;
+    text-align: center;
+    outline: 0;
+    background-color: #69afe3;
+    border-radius: 25px;
+    border-color: #69afe3;
+    &:focus {
+        outline: 0;
+    }
+    &:hover {
+        background-color: darken($color: #69afe3, $amount: 10);
+    }
+}
