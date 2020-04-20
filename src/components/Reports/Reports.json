@@ -1,0 +1,293 @@
+{
+    "reportData": [{
+            "double": true,
+            "title": "Environmental",
+            "listData": [{
+                    "name": "Items Listed",
+                    "items": "6,724 items",
+                    "weigth": "3,456 kg"
+                },
+                {
+                    "name": "Items Collected",
+                    "items": "6,021 items",
+                    "weigth": "2,056 kg"
+                },
+                {
+                    "name": "Case Studies Received",
+                    "items": "21"
+                }
+            ]
+        },
+        {
+            "title": "Economic",
+            "listData": [{
+                    "name": "Savings generated for collectors",
+                    "numbers": "£ 6,029.00"
+                },
+                {
+                    "name": "% of collections that helped with funding or grants",
+                    "numbers": "20%"
+                }
+            ]
+        },
+        {
+            "title": "Social",
+            "listData": [{
+                    "name": "Number of people your items helped",
+                    "numbers": "300 people"
+                },
+                {
+                    "name": "% of collections that helped with employment",
+                    "numbers": "55%"
+                },
+                {
+                    "name": "% of collections that helped with upskilling",
+                    "numbers": "46%"
+                }
+            ]
+        }
+    ],
+    "barCharts": [{
+            "title": "Top 10 Items Listed by Category",
+            "mainChart": [
+                [
+                    "Tools",
+                    709,
+                    "#588da8",
+                    null
+                ],
+                [
+                    "Tables",
+                    678,
+                    "#ccafaf",
+                    null
+                ],
+                [
+                    "Cars",
+                    567,
+                    "#e58a8a",
+                    null
+                ],
+                [
+                    "Displays",
+                    456,
+                    "#d8345f",
+                    null
+                ],
+                [
+                    "Chairs",
+                    345,
+                    "#342ead",
+                    null
+                ],
+                [
+                    "Toys",
+                    234,
+                    "#ea6227",
+                    null
+                ],
+                [
+                    "Blinds",
+                    123,
+                    "#c02739",
+                    null
+                ],
+                [
+                    "Air Conditions",
+                    90,
+                    "#844685",
+                    null
+                ],
+                [
+                    "Other Furniture",
+                    80,
+                    "#10375c",
+                    null
+                ],
+                [
+                    "Applances",
+                    70,
+                    "#f3c623",
+                    null
+                ]
+            ]
+        },
+        {
+            "title": "Top 10 Weights Listed by Category",
+            "mainChart": [
+                [
+                    "Tools",
+                    709,
+                    "#588da8",
+                    null
+                ],
+                [
+                    "Tables",
+                    678,
+                    "#ccafaf",
+                    null
+                ],
+                [
+                    "Cars",
+                    567,
+                    "#e58a8a",
+                    null
+                ],
+                [
+                    "Displays",
+                    456,
+                    "#d8345f",
+                    null
+                ],
+                [
+                    "Chairs",
+                    345,
+                    "#342ead",
+                    null
+                ],
+                [
+                    "Toys",
+                    234,
+                    "#ea6227",
+                    null
+                ],
+                [
+                    "Blinds",
+                    123,
+                    "#c02739",
+                    null
+                ],
+                [
+                    "Air Conditions",
+                    90,
+                    "#844685",
+                    null
+                ],
+                [
+                    "Other Furniture",
+                    80,
+                    "#10375c",
+                    null
+                ],
+                [
+                    "Applances",
+                    70,
+                    "#f3c623",
+                    null
+                ]
+            ]
+        }
+    ],
+    "charts": [{
+            "title": "Top 5 Sectors Impacted",
+            "pieData": [{
+                    "color": "#337ab7",
+                    "title": "One",
+                    "percentage": 41,
+                    "value": 3
+                },
+                {
+                    "color": "#5cb85c",
+                    "title": "Two",
+                    "percentage": 35,
+                    "value": 3
+                },
+                {
+                    "color": "#f0ad4e",
+                    "title": "Three",
+                    "percentage": 20,
+                    "value": 2
+                },
+                {
+                    "color": "#007485",
+                    "title": "Three",
+                    "percentage": 10,
+                    "value": 1
+                },
+                {
+                    "color": "#4a235a",
+                    "title": "Three",
+                    "percentage": 5,
+                    "value": 1
+                }
+            ]
+        },
+        {
+            "title": "Usage Intent for Items Collected",
+            "pieData": [{
+                    "color": "#2569b4",
+                    "title": "One",
+                    "percentage": 25,
+                    "value": 2
+                },
+                {
+                    "color": "#19a1db",
+                    "title": "Two",
+                    "percentage": 44,
+                    "value": 3
+                },
+                {
+                    "color": "#d51968",
+                    "title": "Three",
+                    "percentage": 27,
+                    "value": 2
+                },
+                {
+                    "color": "#f47521",
+                    "title": "Three",
+                    "percentage": 38,
+                    "value": 3
+                },
+                {
+                    "color": "#f7a81b",
+                    "title": "Three",
+                    "percentage": 15,
+                    "value": 1
+                }
+            ]
+        }
+    ],
+    "expandButton": {
+        "label": "Expand to see more"
+    },
+    "locationData": {
+        "title": "Location Data",
+        "labels": {
+            "location": "Locations",
+            "itenName": "Items Listed",
+            "weigth": "Weigths",
+            "savings": "Savings generated"
+        },
+        "mainData": [{
+                "location": "Formatted Address 1",
+                "itenName": "5724 items",
+                "weigth": "2029 kg",
+                "savings": "£ 3456.00"
+            },
+            {
+                "location": "Formatted Address 1",
+                "itenName": "5724 items",
+                "weigth": "2029 kg",
+                "savings": "£ 3456.00"
+            },
+            {
+                "location": "Formatted Address 1",
+                "itenName": "5724 items",
+                "weigth": "2029 kg",
+                "savings": "£ 3456.00"
+            },
+            {
+                "location": "Formatted Address 1",
+                "itenName": "5724 items",
+                "weigth": "2029 kg",
+                "savings": "£ 3456.00"
+            },
+            {
+                "location": "Formatted Address 1",
+                "itenName": "5724 items",
+                "weigth": "2029 kg",
+                "savings": "£ 3456.00"
+            }
+        ]
+    }
+}
