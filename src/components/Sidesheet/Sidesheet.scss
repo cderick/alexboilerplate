@@ -1,0 +1,161 @@
+.minContainer {
+    min-height: 100vh;
+    .cursorPointer {
+        cursor: pointer;
+    }
+    .sideCont {
+        position: absolute;
+        right: 0;
+        background-color: white;
+        top: 0;
+        height: 100vh;
+        width: 27%;
+        .pillListings {
+            padding: 12px 20px;
+            display: inline-block;
+            color: black;
+            text-align: center;
+            outline: 0;
+            max-width: 170px;
+            width: 100%;
+            background-color: white;
+            border-radius: 25px 0 0 25px;
+            border: 2px solid #f1f1f1;
+            cursor: pointer;
+            &.pillActive {
+                background-color: #69afe3;
+                border-color: #69afe3;
+                color: white;
+                &:hover {
+                    border-color: darken($color: #69afe3, $amount: 10);
+                    background-color: darken($color: #69afe3, $amount: 10);
+                }
+            }
+            &:hover {
+                border-color: #ececec;
+                background-color: #ececec;
+            }
+        }
+        .pillRequests {
+            padding: 12px 20px;
+            color: black;
+            display: inline-block;
+            text-align: center;
+            outline: 0;
+            max-width: 170px;
+            width: 100%;
+            background-color: white;
+            border-radius: 0 25px 25px 0;
+            border: 2px solid #f1f1f1;
+            cursor: pointer;
+            &.pillActive {
+                background-color: #69afe3;
+                border-color: #69afe3;
+                color: white;
+                &:hover {
+                    border-color: darken($color: #69afe3, $amount: 10);
+                    background-color: darken($color: #69afe3, $amount: 10);
+                }
+            }
+            &:hover {
+                border-color: #ececec;
+                background-color: #ececec;
+            }
+        }
+        .mainBlueColor {
+            color: #69afe3;
+            cursor: pointer;
+            &:hover {
+                color: darken($color: #69afe3, $amount: 5);
+            }
+        }
+        .invisibleButton {
+            cursor: pointer;
+            display: inline-block;
+            padding: 0 15px;
+            &.userLogged {
+                padding-top: 0.7em;
+            }
+            &:hover {
+                color: darken($color: #69afe3, $amount: 5) !important;
+            }
+        }
+        .standardButton {
+            padding: 10px 4rem;
+            color: white;
+            text-align: center;
+            outline: 0;
+            background-color: #69afe3;
+            border-radius: 25px;
+            border-color: #69afe3;
+            &.alternative {
+                color: #69afe3;
+                background-color: white;
+                border: 2px solid #69afe3;
+                &:hover {
+                    color: white;
+                    background-color: darken($color: #69afe3, $amount: 10);
+                    border-color: darken($color: #69afe3, $amount: 10);
+                }
+            }
+            &:focus {
+                outline: 0;
+            }
+            &:hover {
+                background-color: darken($color: #69afe3, $amount: 10);
+            }
+        }
+        .notificatContainer {
+            background-color: white;
+            height: 55vh;
+            margin-bottom: 224px;
+            overflow: scroll;
+            .nameBackground {
+                background-color: #517b88;
+                border-radius: 20px 20px 0 0;
+                font-weight: bold;
+                color: white;
+            }
+            .descripBackground {
+                background: #f5f5f5;
+                border-radius: 0 0 20px 20px;
+            }
+        }
+        .sidePosition {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            border-top: 1px solid rgb(216, 214, 214);
+        }
+        .dashBackground {
+            background: #f5f5f5;
+            border-radius: 20px 20px 0 0;
+            font-weight: bold;
+            &:hover {
+                background-color: darken($color: #f5f5f5, $amount: 10);
+            }
+            cursor: pointer;
+        }
+        .listingBack {
+            background: rgb(105, 175, 227);
+            border-radius: none;
+            color: white;
+            cursor: pointer;
+            &:hover {
+                background-color: darken($color: #69afe3, $amount: 10);
+            }
+            &.corners {
+                border-radius: 0 0 20px 20px;
+            }
+        }
+    }
+}
+
+.overlay {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.6;
+    position: absolute;
+}

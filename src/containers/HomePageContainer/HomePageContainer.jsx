@@ -21,6 +21,7 @@ import TermsAndConditions from '../../components/Terms/TermsAndConditions'
 import Reports from '../../components/Reports/Reports'
 import DownPage from '../../components/DownPage/DownPage'
 import NewFooter from '../../components/NewFooter/NewFooter'
+import Sidesheet from '../../components/Sidesheet/Sidesheet'
 
 class HomePageContainer extends React.Component {
 	constructor(props){
@@ -142,6 +143,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={Reports}
 						path='/reports'
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={Sidesheet}
+						path='/sidesheet'
 						exact
 					/>
 					<PublicRoute
