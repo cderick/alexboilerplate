@@ -1,0 +1,15 @@
+.containerBackground {
+    background-color: #ffecde;
+    min-height: 550px;
+    max-height: 550px;
+    .itemBox {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+}
+
+.titleFont {
+    font-weight: bold;
+    color: rgb(37, 36, 36);
+}

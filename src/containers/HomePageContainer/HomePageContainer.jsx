@@ -19,6 +19,7 @@ import Unsubscribe from '../../components/Unsubscribe/Unsubscribe'
 import PrivacyPolicy from '../../components/Privacy/PrivacyPolicy'
 import TermsAndConditions from '../../components/Terms/TermsAndConditions'
 import Reports from '../../components/Reports/Reports'
+import DownPage from '../../components/DownPage/DownPage'
 
 class HomePageContainer extends React.Component {
 	render() {
@@ -125,6 +126,12 @@ class HomePageContainer extends React.Component {
 						restricted={false}
 						component={Reports}
 						path='/reports'
+						exact
+					/>
+					<PublicRoute
+						restricted={false}
+						component={DownPage}
+						path='/downpage'
 						exact
 					/>
 					<PublicRoute

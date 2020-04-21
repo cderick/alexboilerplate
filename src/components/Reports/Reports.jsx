@@ -23,7 +23,7 @@ class Reports extends Component {
                                     <Chart
                                         chartType="BarChart"
                                         data={[
-                                            ['Element', 'Density', { role: 'style' }, { sourceColumn: 0, role: 'annotation', type: 'string', calc: 'stringify' }],
+                                            ['Element', 'Quantity', { role: 'style' }, { sourceColumn: 0, role: 'annotation', type: 'string', calc: 'stringify' }],
                                             ...CharBar.mainChart
                                         ]}
                                         options={{ bar: { groupWidth: '95%' }, height: 500, legend: { position: 'none' } }}
