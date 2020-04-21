@@ -20,9 +20,25 @@ import PrivacyPolicy from '../../components/Privacy/PrivacyPolicy'
 import TermsAndConditions from '../../components/Terms/TermsAndConditions'
 import Reports from '../../components/Reports/Reports'
 import DownPage from '../../components/DownPage/DownPage'
+import NewFooter from '../../components/NewFooter/NewFooter'
 
 class HomePageContainer extends React.Component {
+	constructor(props){
+		super(props)
+		this.state = {
+			pathName: false
+		}
+	}
+
+	componentWillMount(){
+		this.setState({
+			pathName: window.location.pathname.includes('downpage')
+		})
+	}
+
+
 	render() {
+		const { pathName } = this.state
 		return (
 			<BrowserRouter>
 				<Switch>
@@ -142,6 +158,7 @@ class HomePageContainer extends React.Component {
 					/>
 					<Redirect from='*' to='/404' />
 				</Switch>
+				{!pathName && <NewFooter />}
 			</BrowserRouter>
 		)
 	}

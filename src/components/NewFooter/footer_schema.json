@@ -1,0 +1,95 @@
+{
+    "Footer": {
+        "leftBlocks": [{
+                "type": "links",
+                "title": "Account",
+                "cta": [{
+                        "name": "About us",
+                        "url": "/about-us"
+                    },
+                    {
+                        "name": "In the media",
+                        "url": "/in-the-media"
+                    },
+                    {
+                        "name": "Contact us",
+                        "url": "#contactus"
+                    }
+                ]
+            },
+            {
+                "type": "links",
+                "title": "Site Information",
+                "cta": [{
+                        "name": "Terms and conditions",
+                        "url": "/terms"
+                    },
+                    {
+                        "name": "Privacy",
+                        "url": "/privacy"
+                    },
+                    {
+                        "name": "Careers",
+                        "url": "/careers"
+                    }
+                ]
+            }
+        ],
+        "rightBlocks": [{
+                "type": "imageLink",
+                "imageUrl": "https://d820a6sl534t.cloudfront.net/seals/unreasonable-seal-white-20171129.png",
+                "url": "https://unreasonablegroup.com/c/?id=be2bc393-0b96-440a-9766-eb320add53ff"
+            },
+            {
+                "type": "select",
+                "title": "Language",
+                "options": [{
+                        "text": "English",
+                        "val": "en"
+                    },
+                    {
+                        "text": "French",
+                        "val": "fr"
+                    },
+                    {
+                        "text": "Spanish",
+                        "val": "es"
+                    },
+                    {
+                        "text": "German",
+                        "val": "de"
+                    },
+                    {
+                        "text": "Arabic",
+                        "val": "ae"
+                    }
+                ]
+            },
+            {
+                "type": "socialNetwork",
+                "title": "Connect",
+                "cta": [{
+                        "icon": "fab fa-instagram",
+                        "url": "https://www.instagram.com/weareglobechain/"
+                    },
+                    {
+                        "icon": "fab fa-facebook-f",
+                        "url": "https://www.facebook.com/Globechain?fref=ts&ref=br_tf"
+                    },
+                    {
+                        "icon": "fab fa-twitter",
+                        "url": "https://twitter.com/globechain"
+                    },
+                    {
+                        "icon": "fab fa-linkedin",
+                        "url": "https://www.linkedin.com/company/globechain/"
+                    },
+                    {
+                        "icon": "fab fa-youtube",
+                        "url": "https://www.youtube.com/channel/UCPnTAxG2GzLjnlbbDPv2hBw"
+                    }
+                ]
+            }
+        ]
+    }
+}
