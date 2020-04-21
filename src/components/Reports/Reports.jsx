@@ -10,7 +10,6 @@ class Reports extends Component {
     render() {
         if (!data) return null
         const { reportData, locationData, expandButton, charts, barCharts } = data
-        console.log(barCharts)
         return (
             <div className="container p-0">
                 <RepDataSection reportData={reportData} />
