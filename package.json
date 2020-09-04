@@ -68,7 +68,7 @@
         "jest-mock": "^24.9.0",
         "jest-trx-results-processor": "^1.0.2",
         "lint-staged": "^9.4.2",
-        "node-sass": "4.13.0",
+        "node-sass": "4.14.1",
         "path": "0.12.7",
         "postcss-loader": "3.0.0",
         "react-minimal-pie-chart": "^7.3.1",
